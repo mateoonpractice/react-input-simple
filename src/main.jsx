@@ -9,7 +9,7 @@ function Root() {
 
   const handleLogin = (user, password) => {
     // Cambia estos valores por los que desees validar
-    if (user === 'usuario@gmail.com' && password === 'contraseña') {
+    if (user === 'coach@gmail.com' && password === 'K0dig0') {
       setIsAuthenticated(true);
     } else {
       alert('Usuario o contraseña incorrectos');
