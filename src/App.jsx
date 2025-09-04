@@ -2,6 +2,8 @@ import React , { useState } from 'react'
 import './App.css'
 
 function App() {
+  const coverArtist = "https://raw.githubusercontent.com/mateoonpractice/react-input-simple/e6ca219c0690906b6634e1103197d6177bf9828a/src/images/triples-artist.jpg";
+
   return (
     <>
     <nav className="nav-head">
@@ -36,37 +38,37 @@ function App() {
           <h3>TOP ARTISTAS</h3>
           <div className="top-artists">
             <div className="card-artist">
-              <img src="src/images/triples-artist.jpg" alt="tripleS"/>
+              <img src={coverArtist} alt="tripleS"/>
               <h4>tripleS</h4>
               <p>30M Plays</p>
             </div>
 
             <div className="card-artist">
-              <img src="src/images/triples-artist.jpg" alt="tripleS"/>
+              <img src={coverArtist} alt="tripleS"/>
               <h4>tripleS</h4>
               <p>30M Plays</p>
             </div>
 
             <div className="card-artist">
-              <img src="src/images/triples-artist.jpg" alt="tripleS"/>
+              <img src={coverArtist} alt="tripleS"/>
               <h4>tripleS</h4>
               <p>30M Plays</p>
             </div>
             
             <div className="card-artist">
-              <img src="src/images/triples-artist.jpg" alt="tripleS"/>
+              <img src={coverArtist} alt="tripleS"/>
               <h4>tripleS</h4>
               <p>30M Plays</p>
             </div>
             
             <div className="card-artist">
-              <img src="src/images/triples-artist.jpg" alt="tripleS"/>
+              <img src={coverArtist} alt="tripleS"/>
               <h4>tripleS</h4>
               <p>30M Plays</p>
             </div>
 
             <div className="card-artist">
-              <img src="src/images/triples-artist.jpg" alt="tripleS"/>
+              <img src={coverArtist} alt="tripleS"/>
               <h4>tripleS</h4>
               <p>30M Plays</p>
             </div>
