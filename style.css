@@ -194,7 +194,7 @@ body {
             justify-content: center;
             align-items: center;
             padding: 10px;
-            background-color: white;
+            background-color: lightgray;
         }
 
             .pln-cover {
@@ -211,6 +211,26 @@ body {
                 margin: 0;
             }
 
+        .play-control {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background-color: lightgray;
+            gap: 20px;
+        }
+
+            .control-btn {
+                background: none;
+                border: none;
+                padding: 0;
+                cursor: pointer;
+            }
+
+                .control-btn img {
+                    width: 80px;
+                    height: 80px;
+                }
 
 /* Playlist*/
         .library {
