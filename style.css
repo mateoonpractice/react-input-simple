@@ -149,7 +149,6 @@ body {
             height: 100px;
             border-radius: 50%;
             object-fit: cover;
-            margin-bottom: 10px;
         }
 
         .card-artist h4 {
@@ -163,7 +162,7 @@ body {
             color: #555;
         }
 
-        .complement-content {
+        /*.complement-content {
             background-color: blueviolet;
             display: flex;
             flex-direction: row;
@@ -178,7 +177,7 @@ body {
         .community-overview {
             width: 50%;
             background-color: darkgray;
-        }
+        }*/
 
 /* Playing Module*/
     .playing-module {
@@ -196,6 +195,9 @@ body {
             padding: 10px;
             background-color: lightgray;
         }
+            .playing-now h3 {
+                margin: 0;
+            }
 
             .pln-cover {
                 width: 80%;

@@ -54,17 +54,6 @@ function Explore() {
           
           </div>
         </div>
-
-        <div className="complement-content">
-          {/* Generos */}
-          <div className="genres-map">
-            <h3>Generos</h3>
-          </div>
-          {/* Comunidad */}
-          <div className="community-overview">
-            <h3>Comunidad</h3>
-          </div>
-        </div>
       </div> 
   );
 }
