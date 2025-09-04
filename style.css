@@ -162,23 +162,6 @@ body {
             color: #555;
         }
 
-        /*.complement-content {
-            background-color: blueviolet;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-
-        .genres-map {
-            width: 50%;
-            background-color: gray;
-        }
-
-        .community-overview {
-            width: 50%;
-            background-color: darkgray;
-        }*/
-
 /* Playing Module*/
     .playing-module {
         display: flex;
