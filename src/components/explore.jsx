@@ -23,33 +23,33 @@ function Explore() {
             </div>
 
             <div className="card-artist">
-              <img src="https://lh3.googleusercontent.com/FyjlmawQV_86_GdO8hkLnSu07kVAt8N9T8SCNNNE1WQWBulElLM0kCzbvngzoEP92KQXBmk5CU9BuGSD=w1440-h600-p-l90-rj" alt="tripleS"/>
-              <h4>tripleS</h4>
-              <p>30M Plays</p>
+              <img src="https://raw.githubusercontent.com/mateoonpractice/react-input-simple/refs/heads/main/src/images/Artists/fromis9.jpg" alt="fromis_9"/>
+              <h4>fromis_9</h4>
+              <p>100M Plays</p>
             </div>
 
             <div className="card-artist">
-              <img src={coverArtist} alt="tripleS"/>
-              <h4>tripleS</h4>
-              <p>30M Plays</p>
+              <img src="https://raw.githubusercontent.com/mateoonpractice/react-input-simple/refs/heads/main/src/images/Artists/londongrammar.jpg" alt="londongrammar"/>
+              <h4>London Grammar</h4>
+              <p>45M Plays</p>
             </div>
             
             <div className="card-artist">
-              <img src={coverArtist} alt="tripleS"/>
-              <h4>tripleS</h4>
-              <p>30M Plays</p>
+              <img src="https://raw.githubusercontent.com/mateoonpractice/react-input-simple/refs/heads/main/src/images/Artists/oliviadean.jpg" alt="Olivia Dean"/>
+              <h4>Olivia Dean</h4>
+              <p>16M Plays</p>
             </div>
             
             <div className="card-artist">
-              <img src={coverArtist} alt="tripleS"/>
-              <h4>tripleS</h4>
-              <p>30M Plays</p>
+              <img src="https://raw.githubusercontent.com/mateoonpractice/react-input-simple/refs/heads/main/src/images/Artists/unnamed.jpg" alt="Red Velvet"/>
+              <h4>Red Velvet</h4>
+              <p>259M Plays</p>
             </div>
 
             <div className="card-artist">
-              <img src={coverArtist} alt="tripleS"/>
-              <h4>tripleS</h4>
-              <p>30M Plays</p>
+              <img src="https://raw.githubusercontent.com/mateoonpractice/react-input-simple/refs/heads/main/src/images/Artists/abovebeyond.jpg" alt="Above & Beyond"/>
+              <h4>Above & Beyond</h4>
+              <p>137M Plays</p>
             </div>
           
           </div>
