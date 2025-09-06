@@ -3,12 +3,13 @@ import './App.css'
 import Explore from './components/explore.jsx';
 import PlayControl from './components/playControl.jsx';
 import UserLibrary from './components/library.jsx';
+import PlayingNowCover from './components/playingNowCover.jsx';
 
 function App() {
   const [activeView, setActiveView] = useState('library');
   const logoKodigo = "https://raw.githubusercontent.com/mateoonpractice/react-input-simple/e6ca219c0690906b6634e1103197d6177bf9828a/src/kmusic.png";
   const userAvatar = "https://raw.githubusercontent.com/mateoonpractice/react-input-simple/e6ca219c0690906b6634e1103197d6177bf9828a/src/user-bear.png";
-  const plnCover = "https://raw.githubusercontent.com/mateoonpractice/react-input-simple/e6ca219c0690906b6634e1103197d6177bf9828a/src/images/songs-covers/diablotriples.jpg";
+  
 
   return (
     <>
@@ -34,12 +35,7 @@ function App() {
 
         {/* Player */}
         <aside className="playing-module">
-          <div className="playing-now">
-            <h3>Reproduciendo</h3>
-            <img className="pln-cover" src={plnCover} alt="cover"/>
-            <p className="pln-title">Friend Zone</p>
-            <p className="pln-artist">tripleS</p>
-          </div>
+            <PlayingNowCover/>
           <div>
             <PlayControl/>
           </div>
