@@ -25,7 +25,7 @@ function Login({ onLogin }) {
             type="email"
             id="inputEmail"
             className="form-control"
-            placeholder="Email address"
+            placeholder="usuario@ejemplo.com"
             value={user}
             onChange={e => setUser(e.target.value)}
             required
@@ -38,7 +38,7 @@ function Login({ onLogin }) {
             type="password"
             id="inputPassword"
             className="form-control"
-            placeholder="Password"
+            placeholder="Contraseña"
             value={password}
             onChange={e => setPassword(e.target.value)}
             required

@@ -23,7 +23,7 @@ function Explore() {
             </div>
 
             <div className="card-artist">
-              <img src={coverArtist} alt="tripleS"/>
+              <img src="https://lh3.googleusercontent.com/FyjlmawQV_86_GdO8hkLnSu07kVAt8N9T8SCNNNE1WQWBulElLM0kCzbvngzoEP92KQXBmk5CU9BuGSD=w1440-h600-p-l90-rj" alt="tripleS"/>
               <h4>tripleS</h4>
               <p>30M Plays</p>
             </div>

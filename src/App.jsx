@@ -23,7 +23,7 @@ function App() {
         {/* User Corner */}
         <div className="user-corner">
           <img src={userAvatar} alt="user"/>
-          <p>User Name</p>
+          <p>Coach</p>
         </div>
       </nav>
 
